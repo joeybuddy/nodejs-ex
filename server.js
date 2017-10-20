@@ -89,6 +89,14 @@ app.get('/pagecount', function (req, res) {
   }
 });
 
+app.get('/testauth', function(req, res) {
+  res.send('TODO');
+});
+
+app.get('/authed', function(req, res) {
+  res.send('TODO');
+});
+
 // error handling
 app.use(function(err, req, res, next){
   console.error(err.stack);
